@@ -1,0 +1,22 @@
+.next{
+    width: 70px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid #b1b1b1;
+    outline: none;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+}
+.slider{
+    display: flex;
+    justify-content: center;
+}
+.carousel{
+    width: 300px;
+    margin: 50px;
+}
+.image{
+    background-size: cover;
+}

@@ -1,0 +1,64 @@
+.main{
+    padding: 100px;
+}
+
+.main li{
+    background: #333333;
+    width: 400px;
+    height: 50px;
+    padding: 0 5px;
+    font-size: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid;
+    margin: 10px;
+    color: antiquewhite;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.modalBg{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.5);
+    display: none;
+    justify-content: flex-end;
+    align-items: center;
+    cursor: pointer;
+}
+.modal{
+    display: none;
+    background: #333;
+    color: #ffffff;
+    border: 1px solid white;
+    width: 500px;
+    height: 300px;
+    margin: 100px;
+    z-index: 11;
+    border-radius: 10px;
+    position: absolute;
+}
+.modulsH1{
+    position: absolute;
+    top: 80px;
+    right: 260px;
+    color: #ffffff;
+}
+.infos{
+    padding: 10px;
+    font-size:20px;
+}
+.iconCancel{
+    width: 25px;
+    height: 25px;
+    position: relative;
+    left: 93%;
+    top: 7px;
+}
+.icon{
+    width: 100%;
+    height: 100%;
+}

@@ -1,0 +1,46 @@
+.loginInput , .registerInput {
+    outline: none;
+    border: none;
+    width:300px;
+    height: 40px;
+    border-radius: 17px;
+    background-color: rgba(58, 58, 58, 0.56);
+    border-bottom: 1px solid white;
+    margin-top: 20px;
+    padding: 0 15px;
+    color: #ffffff;
+}
+.registerInput:focus{
+    border: 1px solid #ffffff;
+    box-shadow: 0 0 3px #d2d2d2;
+    outline-offset: 0;
+    outline: none;
+    background: rgba(72, 72, 72, 0.83);
+}
+.loginInput:focus{
+    border: 1px solid #ffffff;
+    box-shadow: 0 0 3px #d2d2d2;
+    outline-offset: 0;
+    outline: none;
+    background: rgba(72, 72, 72, 0.83);
+}
+.loginInput , .registerInput{
+    box-shadow: 2px 2px 10px #494949;
+}
+.loginInput:hover{
+    background-color:rgba(72, 72, 72, 0.83);
+}
+.registerInput:hover{
+    background-color:rgba(72, 72, 72, 0.83);
+}
+.skillInput {
+    height: 27px;
+    border-radius: 10px;
+    background: #ffffff;
+    color: #3f3f3f;
+    width: 190px;
+    border: 0;
+    padding: 0 15px;
+    outline: 0;
+    margin: 0 15px 0 0;
+}

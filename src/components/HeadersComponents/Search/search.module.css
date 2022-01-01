@@ -1,0 +1,20 @@
+.searchDiv{
+    height:37px;
+    width: 320px;
+    position: relative;
+    right: 10px;
+}
+.icon{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    font-size: 25px;
+    position: absolute;
+    left: 90%;
+    color:#5e5e5e;
+    top: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}

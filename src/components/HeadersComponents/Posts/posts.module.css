@@ -1,0 +1,89 @@
+.posts {
+    width: 550px;
+    margin: 20px auto;
+}
+.posts div{
+    list-style-type: none;
+}
+.posts li{
+    list-style: none;
+}
+.posts li div{
+    width: 100%;
+    border: 2px solid #ffffff;
+    border-radius: 15px;
+    height: 60px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    background-color: rgba(56, 56, 56, 0.91);
+    font-size: 19px;
+    padding: 5px;
+    color: #ffffff;
+    text-align: center;
+}
+.posts li div:hover {
+    background: #6c6c6c;
+}
+.link{
+    text-decoration: none;
+    color: white;
+}
+
+.page {
+    font-size: 20px;
+    text-align: center;
+    display: inline-block;
+    margin: 10px;
+    cursor: pointer;
+}
+.pagination{
+    margin-left: 42%;
+}
+
+.modalBg{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.5);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.modal{
+    display: none;
+    background: #ffffff;
+    color: #333333;
+    border: 1px solid white;
+    width: 500px;
+    font-size: 20px;
+    margin-left: 30px;
+    z-index: 11;
+    border-radius: 10px;
+    position: absolute;
+    padding: 30px;
+    text-align: center;
+}
+.modal svg{
+    position: absolute;
+    left: 95%;
+    top: 5px;
+    font-size: 20px;
+}
+.modal p{
+    display: block;
+    padding: 10px;
+    width: 100%;
+}
+.title{
+    color: #ff0000;
+    font-size: 25px;
+}
+.postModal{
+    display: block;
+}
